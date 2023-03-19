@@ -1,0 +1,79 @@
+.left-bar {
+  width: 180px;
+  margin-right: 20px;
+
+  .dock-nav {
+    position: fixed;
+    top: 20px;
+    width: 180px;
+    background: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all .2s linear;
+
+    .item {
+      .title {
+        padding: 0 12px;
+        color: #252933;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        height: 44px;
+        margin-bottom: 2px;
+        font-size: 16px;
+        transition: color .3s;
+        cursor: pointer;
+
+        &:hover {
+          color: #1e80ff;
+          background: #f7f8fa;
+        }
+
+        &:hover svg {
+          fill: #1e80ff;
+        }
+
+        &.active {
+          color: #1e80ff;
+          background: #eaf2ff;
+        }
+
+        &.active svg {
+          fill: #1e80ff;
+        }
+
+        svg {
+          fill: #8a919f;
+          margin-right: 10px;
+          transition: fill .3s;
+        }
+      }
+
+      .topic {
+        display: block;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 44px;
+        color: #8a919f;
+        padding-left: 38px;
+        transition: color .3s;
+        border-radius: 4px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        cursor: pointer;
+
+        &:hover {
+          color: #1e80ff;
+          background: #f7f8fa;
+        }
+
+        &.active {
+          color: #1e80ff;
+          background: #eaf2ff;
+        }
+      }
+    }
+  }
+}

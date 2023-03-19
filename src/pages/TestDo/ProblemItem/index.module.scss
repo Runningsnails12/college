@@ -1,0 +1,55 @@
+.problem-item {
+  margin-bottom: 12px;
+  font-size: 14px;
+  border-top: 1px solid #dfdfdf;
+
+  .problem-title {
+    font-weight: bold;
+    padding: 10px 0;
+
+    &>div {
+      display: inline-block;
+    }
+  }
+
+  .problem-content {
+    .problem-choose {
+      display: flex;
+      padding: 5px 30px;
+      margin-bottom: 10px;
+      transition: all .3s;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #f6f7f9
+      }
+
+      &>span {
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+      }
+
+      &>div p {
+        word-break: break-all;
+      }
+
+      &.choosed {
+        background-color: rgb(215, 236, 250);
+      }
+
+      &.error {
+        border: 2px solid red !important;
+      }
+
+      &.success {
+        border: 2px solid rgb(75, 172, 236) !important;
+      }
+
+      .md-wrapper {
+        width: 100%;
+      }
+    }
+  }
+}

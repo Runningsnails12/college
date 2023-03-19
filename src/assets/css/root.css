@@ -1,0 +1,17 @@
+:root {
+    --tb_nav_main: #1b9aee;
+    --tb_nav_dark-main: #006CFA;
+    --tb_nav_light-main: #00C5FF;
+    --tb_nav_white: #ffffff;
+    --tb_nav_black: #777c88;
+    --tb_nav_dark-black: #262626;
+    --tb_nav_light-black: #8c8c8c;
+    --tb_nav_gray: #f6f7f9;
+    --tb_nav_dark-gray: #eceef2;
+    --tb_nav_warning: #ffa941;
+    --tb_nav_success: #64d16d;
+    --tb_nav_error: #e62412;
+    --tb_nav_dark-layer: linear-gradient(to right, rgba(38,38,38, 0.2), rgba(38,38,38, 0.2));
+    --tb_nav_light-layer: linear-gradient(to right, rgba(38,38,38, 0.5), rgba(38,38,38, 0.5));
+    --tb_nav_bar-width: 80px;
+}

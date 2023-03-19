@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  touch-action: none;
+  overflow-x: hidden;
+}
+
+.dropzone {
+  position: relative;
+  height: 176px;
+}

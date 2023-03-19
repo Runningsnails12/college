@@ -1,0 +1,7 @@
+.web-content {
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;
+  padding-left: var(--side-navigation-bar-width, 80px);
+  width: 100vw;
+}

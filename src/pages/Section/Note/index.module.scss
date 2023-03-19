@@ -1,0 +1,73 @@
+.note-warpper {
+  position: absolute;
+  left: 50%;
+  z-index: 999;
+  transform: translate3d(-50%, 0, 0);
+  width: 600px;
+
+  .note {
+    min-height: 190px;
+    padding: 24px 28px 20px;
+    border-radius: 8px;
+    background: #545353;
+    box-sizing: border-box;
+
+    .content {
+      min-height: 84px;
+      word-break: break-all;
+      line-height: 27px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 26px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #b2b2b2;
+
+      .author {
+        display: flex;
+        align-items: center;
+
+        .avatar-name {
+          margin-left: 10px;
+          margin-right: 10px;
+          max-width: 100px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+        }
+      }
+
+      .operation {
+        width: 85px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 400;
+        color: #b2b2b2;
+
+        &>div {
+          cursor: pointer;
+        }
+
+        .count {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
+  .comment {
+    padding: 20px 15px;
+    margin-top: 11px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 4px -2px rgb(0 0 0 / 13%), 0 2px 8px 0 rgb(0 0 0 / 8%), 0 8px 16px 4px rgb(0 0 0 / 4%);
+  }
+}

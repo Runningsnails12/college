@@ -1,0 +1,23 @@
+.form {
+  width: 400px;
+  margin: 100px auto;
+
+  .title {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .remember {
+    :global {
+      .ant-form-item-control-input-content {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

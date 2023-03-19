@@ -1,0 +1,130 @@
+.test-result-page {
+  margin: 50px 90px;
+  padding: 0px 24px 10px;
+  width: 100%;
+  height: 100%;
+
+  .header {
+    display: flex;
+
+    .chart-wrapper {
+      flex: 1 0 0px;
+      max-width: 680px;
+      height: 236px;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 8px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+
+      .chart-header {
+        display: flex;
+        height: 40px;
+        align-items: center;
+        color: #4b4395;
+
+        .score {
+          margin-right: 20px;
+          font-weight: 500;
+
+          .score-title {
+            line-height: 20px;
+            font-weight: 500;
+          }
+
+          .score-content {
+            .acquire {
+              font-size: 18px;
+              font-weight: 500;
+              line-height: 25px;
+            }
+
+            .total {
+              font-size: 12px;
+            }
+          }
+        }
+
+        :global {
+          .ant-progress-inner {
+            width: 40px !important;
+            height: 40px !important;
+            font-size: 12px !important;
+          }
+
+          .ant-progress-circle-trail {
+            stroke: rgba(86, 74, 190, .3)
+          }
+
+          .ant-progress-circle-path {
+            stroke: #4b4395;
+          }
+        }
+
+        .divider {
+          width: 1px;
+          border-right: 1px solid rgba(240, 240, 240, 1);
+          height: 36px;
+          margin: 0px 24px;
+        }
+      }
+
+      .chart-title {
+        margin-top: 8px;
+        font-weight: 500;
+        color: rgba(33, 40, 53, 0.75);
+      }
+    }
+
+
+    .info {
+      width: 50%;
+      min-width: 520px;
+      flex: 1 0 0px;
+      padding: 20px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      :global {
+        .ant-statistic-content {
+          line-height: 12px;
+        }
+
+        .ant-statistic-content-value {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .problem-wrapper {
+    .wrapper-title {
+      margin: 29px 0;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 19px;
+      color: #4b4395;
+      background-color: #4b43950f;
+      border-radius: 8px;
+    }
+
+    .problem-content {
+      padding: 26px 39px;
+      border-radius: 8px;
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.08);
+
+      .problem-part {
+
+        .problem-part-title {
+          padding: 10px 0;
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        .item-res {
+          padding: 10px 0;
+        }
+      }
+    }
+  }
+}

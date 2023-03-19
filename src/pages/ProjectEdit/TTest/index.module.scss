@@ -1,0 +1,23 @@
+.test-wrapper {
+  width: 100%;
+
+  .test {
+    width: 1000px;
+    margin: 20px auto 0;
+    background-color: #fff;
+
+    :global {
+      .ant-tabs-nav-wrap {
+        margin-left: 30px;
+      }
+
+      .ant-tabs-content-holder {
+        background-color: #fff;
+      }
+
+      .ant-tabs-extra-content {
+        margin-right: 30px;
+      }
+    }
+  }
+}

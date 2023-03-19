@@ -1,0 +1,24 @@
+.project-edit-wrapper {
+  width: 100%;
+
+  .project-edit {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+.operate-item {
+  display: flex;
+
+  .item-left {
+    display: flex;
+    padding: 10px 28px 10px 0px;
+    width: 140px;
+  }
+
+  .item-right {
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+  }
+}

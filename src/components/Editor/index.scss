@@ -1,0 +1,57 @@
+.showCode {
+  background-color: #fafafa;
+  border: 1px solid #e7e9e8;
+  border-radius: 4px;
+
+  .code_header {
+    height: 24px;
+    line-height: 24px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E8E8E8;
+    color: #8a8f8d;
+    padding-left: 20px;
+  }
+
+  .hl {
+    padding: 5px 0;
+    position: relative;
+
+
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        display: flex;
+        line-height: 22px;
+        margin: 0;
+
+        .line_num {
+          width: 30px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          color: #6c6c6c;
+          flex-shrink: 0;
+          user-select: none;
+        }
+
+        .code_item {
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+}
+
+code {
+  background-color: transparent !important;
+}
+
+pre {
+  padding: 0;
+  background-color: transparent !important;
+  line-height: 0 !important;
+  overflow-x: inherit !important;
+}

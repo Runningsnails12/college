@@ -1,0 +1,43 @@
+.cycle-container {
+  width: 100%;
+  background-color: rgb(244, 245, 245);
+  height: 100%;
+  overflow: auto;
+
+  .cycle-page {
+    display: flex;
+    width: 1200px;
+    margin: 20px auto;
+    border-radius: 4px;
+
+
+    .content {
+      flex: 1;
+      min-width: 500px;
+      margin-right: 20px;
+
+      .editor {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+      }
+
+      .pin-list {
+        background-color: #fff;
+      }
+    }
+
+    .right-bar {
+      width: 296px;
+      border-radius: 4px;
+
+      .fixed {
+        width: 296px;
+        padding: 20px;
+        position: fixed;
+        top: 20px;
+        background-color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.next-overlay-inner {
+  position: absolute;
+  width: 322px;
+  background: var(--tb_nav_white);
+  box-shadow: 0 12px 32px 0 rgb(38 38 38 / 16%);
+  transform: translateZ(0);
+  border-radius: 4px;
+  z-index: 1001;
+
+  .nav_bar_detail-more {
+    padding: 20px 0;
+    overflow: auto;
+    max-height: 463px;
+    display: flex;
+    flex-direction: column;
+  }
+}

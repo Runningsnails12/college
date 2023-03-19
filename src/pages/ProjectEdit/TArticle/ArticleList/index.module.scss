@@ -1,0 +1,18 @@
+.article-list {
+  .btn {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .link {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+
+  .time {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+  }
+}

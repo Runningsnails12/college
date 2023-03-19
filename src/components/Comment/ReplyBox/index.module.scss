@@ -1,0 +1,13 @@
+.view-more {
+  padding-left: 20px;
+  font-size: 13px;
+  color: #9499a0;
+
+  .view-more-btn {
+    cursor: pointer;
+
+    &:hover {
+      color: #00aeec;
+    }
+  }
+}

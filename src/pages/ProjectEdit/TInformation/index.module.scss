@@ -1,0 +1,23 @@
+.information-page {
+  width: 1000px;
+  margin: 0 auto;
+
+  .upload {
+    margin: 10px 0;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 12px;
+
+    &:hover {
+      background-color: #eee;
+      transition: all .3s ease;
+    }
+  }
+}

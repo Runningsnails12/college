@@ -1,0 +1,59 @@
+.catelogue-wrapper {
+  padding-top: 20px;
+
+  .catelogue {
+    display: flex;
+    height: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;
+    width: 960px;
+
+
+    :global {
+      .ant-collapse {
+        width: 100%;
+      }
+
+      .ant-collapse-content {
+        background-color: #fff;
+      }
+
+      .ant-collapse-header-text {
+        font-weight: 700;
+      }
+
+      .ant-collapse-content-box {
+        padding: 0;
+      }
+    }
+
+    .item {
+      padding: 16px 60px;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: #F7F7F7;
+      }
+
+      &:hover .item-title {
+        color: #1677ff;
+      }
+
+      .item-title {
+        text-decoration: none;
+      }
+
+      .item-tag {
+        margin-top: 5px;
+
+        .item-tag-color {
+          color: rgb(95 95 95);
+        }
+
+
+      }
+    }
+  }
+}

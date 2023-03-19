@@ -1,0 +1,65 @@
+.sidebar-wrapper {
+  width: 252px;
+  height: 100%;
+  position: relative;
+  background-color: #fff;
+  z-index: 20;
+  transition: all .3s;
+  border-right: 1px solid rgba(5, 5, 5, 0.06);
+  overflow: auto;
+
+  .header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 44px;
+    padding: 18px 24px 0px;
+    box-sizing: content-box;
+    overflow: hidden;
+    flex-shrink: 0;
+
+    .app-title {
+      color: #171a1d;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .menu {
+    padding: 0 16px;
+
+    :global {
+      .ant-menu-title-content {
+        font-weight: 500;
+        font-size: 14px;
+        color: #262626;
+      }
+
+      .ant-menu-item {
+        color: #8C8C8C;
+        padding-left: 18px !important;
+      }
+
+      .ant-menu-item-selected {
+        background-color: #F7F7F7;
+      }
+
+      .ant-menu-item-icon {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .operation {
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+.title {
+  padding: 10px 0;
+  font-weight: bold;
+  color: #4b4395;
+}

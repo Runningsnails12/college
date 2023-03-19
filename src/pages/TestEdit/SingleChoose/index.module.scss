@@ -1,0 +1,153 @@
+.single-choose {
+  .center {
+    text-align: center;
+    padding: 12px 0;
+    margin: 12px 0;
+    color: #4b4395;
+    font-size: 14px;
+    background-color: rgb(241, 243, 250);
+    // border: 1px dashed rgb(193, 187, 246);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .topic {
+    margin-bottom: 20px;
+  }
+
+  .item-title {
+    padding: 10px 0;
+    font-weight: bold;
+    color: #4b4395;
+  }
+
+  .type {
+    margin: 10px 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .list-item {
+    display: flex;
+    margin-bottom: 20px;
+
+    .letter {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      font-size: 16px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 100%;
+    }
+
+    .answer {
+      width: 100%;
+
+
+      .answer-content {
+        width: 100%;
+        height: 38px;
+        padding-left: 10px;
+        line-height: 38px;
+        border-radius: 4px;
+        border: 1px solid#E1EAF4;
+        overflow: hidden;
+
+      }
+    }
+  }
+
+  .tips {
+    .tip {
+      display: flex;
+      margin-bottom: 15px;
+
+    }
+  }
+
+  .input-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  :global {
+    .button-wrap {
+      margin-right: 44px !important;
+    }
+
+    .rc-md-navigation {
+      min-height: 0 !important;
+    }
+  }
+
+  .input-wrapper {
+    flex: auto;
+    position: relative;
+
+
+    &:hover .input-right {
+      opacity: 1;
+    }
+
+    .input {
+      width: 100%;
+      height: 32px;
+      line-height: 1.5715;
+      vertical-align: bottom;
+      transition: all 0.3s, height 0s;
+      resize: none;
+      padding: 4px 11px;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      background-color: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 4px;
+
+      &:hover {
+        border-color: #6a62a1;
+      }
+    }
+
+    .input-right {
+      background: rgba(193, 187, 246, 0.4);
+      color: rgba(86, 74, 190, 1);
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 1px 4px;
+      border-radius: 3px;
+      position: absolute;
+      top: 6px;
+      right: 6px;
+
+      opacity: 0;
+      transition: opacity 0.3s ease 0s;
+    }
+  }
+
+  .delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    margin-left: 10px;
+
+    &>span {
+      background: rgba(193, 187, 246, 0.4);
+      color: rgba(86, 74, 190, 1);
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.test-wrapper {
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+  overflow: auto;
+
+  .test {
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    flex-direction: column;
+
+    .header {
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+
+    .main {
+      display: flex;
+
+      .left {
+        width: 333px;
+        padding: 10px 20px;
+        background-color: #fff;
+        margin-right: 20px;
+        flex-shrink: 0;
+
+        .left-problem-title {
+          padding: 5px 0;
+          color: #4b4395;
+          font-weight: bold;
+        }
+
+        .left-problem-item {
+          padding: 5px 15px;
+          cursor: pointer;
+
+          &:hover {
+            background: #4b439514;
+          }
+        }
+      }
+
+      .right {
+        flex: 1;
+
+        .add {
+          margin-bottom: 20px;
+          background-color: #fff;
+
+          .create-problem {
+            padding: 10px;
+            cursor: pointer;
+          }
+        }
+
+        .content {
+          padding: 15px 30px;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+}
